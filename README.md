@@ -34,19 +34,19 @@
 ## 项目结构
 
 - 主版本：
-  - `finals/src/main.jsx`
-  - `finals/src/styles.css`
-  - `finals/server/api-proxy.js`
-  - `finals/vite.config.js`
-  - `finals/package.json`
+  - `main-version/src/main.jsx`
+  - `main-version/src/styles.css`
+  - `main-version/server/api-proxy.js`
+  - `main-version/vite.config.js`
+  - `main-version/package.json`
 - 另一版实现：
-  - `review/src/main.jsx`
-  - `review/src/styles.css`
-  - `review/server/api-proxy.js`
-  - `review/vite.config.js`
-  - `review/package.json`
+  - `alt-version/src/main.jsx`
+  - `alt-version/src/styles.css`
+  - `alt-version/server/api-proxy.js`
+  - `alt-version/vite.config.js`
+  - `alt-version/package.json`
 
-仓库中保留了两个版本，界面和代码组织方式不同，主链路一致。
+当前仓库保留两个版本。`main-version` 为主版本，`alt-version` 保留另一套界面和代码组织方式。
 
 ## 核心实现
 
@@ -87,7 +87,7 @@
 运行主版本：
 
 ```powershell
-cd finals
+cd main-version
 npm.cmd install
 npm.cmd run dev
 ```
@@ -95,7 +95,7 @@ npm.cmd run dev
 运行另一版：
 
 ```powershell
-cd review
+cd alt-version
 npm.cmd install
 npm.cmd run dev
 ```
